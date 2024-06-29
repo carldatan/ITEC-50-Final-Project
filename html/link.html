@@ -3,11 +3,26 @@
 
 <head>
 	<style>
-		a {
+		.sidebar a {
 			color: red;
 			font-size: 20px;
 			text-decoration: none;
-			padding-bottom: 20px;
+			padding: 10px 15px;
+			display: block;
+			background-color: gray;
+			font-family: "Lato Bold", sans-serif;
+		}
+
+		a:hover {
+			background-color: #f1f1f1;
+		}
+
+		body {
+			background-image: url('../img/chowkingbg.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-position: center;
 		}
 	</style>
 </head>
@@ -34,6 +49,13 @@
 	</div>
 	<script>
 
+		window.addEventListener('DOMContentLoaded', function () {
+			var frame = parent.document.getElementById('centerFrame');
+			frame.onload = function () {
+				this.style.height = this.contentWindow.document.body.scrollHeight + 'px';
+			}
+		});
+
 		function changeMenu() {
 			// Select all <a> elements
 			var links = document.querySelectorAll('a');
@@ -54,6 +76,7 @@
 				});
 			}
 		}
+		changeMenu();
 	</script>
 </body>
 

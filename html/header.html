@@ -3,11 +3,84 @@
 
 <head>
 	<title>Order Page</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		body {
+			background: #da291c;
+		}
+
+		#head {
+			display: inline-block;
+			font-size: 3em;
+			text-decoration: none;
+			text-shadow: #1D2E28;
+			font-weight: 600;
+
+
+		}
+
+		.navbar ul {
+			list-style-type: none;
+			background-color: green;
+			padding: 0px;
+			margin-top: 0;
+			margin-left: 500px;
+			margin-bottom: 100px;
+
+		}
+
+		.navbar a {
+			color: black;
+			text-shadow: #1D2E28;
+			background: #e9b71e;
+			font-family: "Lato Bold", sans-serif;
+			text-decoration: none;
+			font-size: 1.5em;
+			padding: 10px;
+			text-align: center;
+			font-weight: 600;
+		}
+
+		.navbar a:hover {
+			background-color: ghostwhite;
+		}
+
+		.navbar li {
+			float: left;
+		}
+
+		.navbar {
+			display: inline-block;
+			height: 20px;
+			maring-top: 0;
+			margin-bottom: 30px;
+
+		}
+
+		#nav {
+			padding-top: 5px;
+		}
+
+		/* #nav { */
+		/* 	background-color: #0A5C36; */
+		/* 	height: 5vh; */
+		/* 	padding: 5px; */
+		/* 	margin-bottom: 5px; */
+		/* 	border-radius: 10px; */
+		/* } */
+	</style>
 </head>
 
 <body>
-	<h1>Order Page</h1>
-	<p>Order your favorite food here!</p>
-	<p>Click on the food you want to order:</p>
+	<div id="nav">
+		<a id="head" href="index.html"><img src="../img/chowingtxtlogo.jpg" height="80"></a>
+		<nav class=" navbar">
+			<ul>
+				<li><a href="header.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
 </body>
+
+</html>

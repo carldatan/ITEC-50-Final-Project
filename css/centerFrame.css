@@ -1,0 +1,21 @@
+.variants {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.v1,
+.v2,
+.v3,
+.v4 {
+	margin: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
