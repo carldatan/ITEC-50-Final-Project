@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		a {
+			color: red;
+			font-size: 20px;
+			text-decoration: none;
+			padding-bottom: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- <div class="background2"> -->
+	<!-- 	<img src="chowkingbg.jpg" height="1000px" width="200%"> -->
+	<!-- 	<img src="whitebg.jpg" class="overlay2" width="80%" height="100%"> -->
+	<!-- </div> -->
+
+	<div class="sidebar">
+		<a id="chaofan" target="contentFrame" href="chaofan.html">Chaofan</a><br>
+		<a id="chicken" target="contentFrame" href="chicken.html">Chinese-style fried chicken</a><br>
+		<a id="lauriat" target="contentFrame" href="lauriat.html">Lauriat</a><br>
+		<a id="chinarice" target="contentFrame" href="chinarice.html">Chinese rice meals</a><br>
+		<a id="noodles" target="contentFrame" href="noodles.html">Noodles</a><br>
+		<a id="siopaosiomai" target="contentFrame" href="siopaosiomai.html">Siopao & Siomai</a><br>
+		<a id="sidedish" target="contentFrame" href="sidedish.html">Side Dishes</a><br>
+		<a id="drinks" target="contentFrame" href="drinks.html">Drinks</a><br>
+		<a id="promo" target="contentFrame" href="promo.html">Promo Offers</a><br>
+		<a id="bestsellers" target="contentFrame" href="bestsellers.html">Bestsellers</a><br>
+		<a id="breakfast" target="contentFrame" href="breakfast.html">Breakfast</a><br>
+		<a id="goodforshare" target="contentFrame" href="goodforshare.html">Good for sharing</a><br>
+	</div>
+	<script>
+		var doc = parent.document;
+		doc.addEventListener("DOMContentLoaded", function () {
+			const links = doc.querySelectorAll("a");
+			const frame = doc.getElementById("centerFrame");
+
+			links.forEach(link => {
+				link.addEventListener("click", function (event) {
+					event.preventDefault();
+					frame.src = this.href;
+				});
+			});
+		});	</script>
+
+</body>
+
+</html>
