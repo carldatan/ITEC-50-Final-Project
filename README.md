@@ -10,8 +10,6 @@ Mr. Raven Dave R. Gallardo
 - Dayson Ronnell
 - Dela Serna
 
-##View Website
-You can view the project live on GitHub Pages: [ITEC-50-Final-Project](https://carldatan.github.io/ITEC-50-Final-Project)
 
 ### Why did you choose that product or services to advertise?
 All of us known Chowking and our group decided that it will be our reference for our final project since it’s quite simple and easy to replicate.
@@ -41,4 +39,8 @@ First of all, we have the home page where the content includes the Location, Men
 > ![Menu Page](img/vincent.jpg)
 > “Order Page coded by Carl”
 > ![Order Page](img/carl.jpg)
+
+## View Website
+You can view the project live on GitHub Pages: [ITEC-50-Final-Project](https://carldatan.github.io/ITEC-50-Final-Project)
+
 
