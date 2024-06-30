@@ -38,3 +38,7 @@ First of all, we have the home page where the content includes the Location, Men
 > ![Menu Page](img/vincent.jpg)
 > “Order Page coded by Carl”
 > ![Order Page](img/carl.jpg)
+
+##View Website
+You can view the project live on GitHub Pages: [ITEC-50-Final-Project](https://carldatan.github.io/ITEC-50-Final-Project)
+
