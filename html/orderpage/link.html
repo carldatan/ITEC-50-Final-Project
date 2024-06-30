@@ -18,13 +18,14 @@
 		}
 
 		body {
-			background-image: url('../img/chowkingbg.jpg');
+			background-image: url('../../img/chowkingbg.jpg');
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-attachment: fixed;
 			background-position: center;
 		}
 	</style>
+	<script src="../../js/orderpage.js"></script>
 </head>
 
 <body>
@@ -56,26 +57,6 @@
 			}
 		});
 
-		function changeMenu() {
-			// Select all <a> elements
-			var links = document.querySelectorAll('a');
-
-			// Loop through all <a> elements
-			for (var i = 0; i < links.length; i++) {
-				// Add an event listener to the current <a> element
-				links[i].addEventListener('click', function (event) {
-					// Prevent the default action of the <a> element
-					event.preventDefault();
-
-					// Select the frame
-					var frame = parent.document.getElementById('centerFrame');
-
-					console.log(frame);
-					// Change the src attribute of the frame
-					frame.src = event.target.href;
-				});
-			}
-		}
 		changeMenu();
 	</script>
 </body>

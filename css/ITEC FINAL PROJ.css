@@ -1,0 +1,64 @@
+body {
+	background-image: url("../img/chowkingbackground2.png");
+	background-size: cover;
+}
+
+div {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+
+}
+
+nav a {
+	text-decoration: none;
+	padding: 0 5.5rem;
+	font-size: 40px;
+}
+
+nav {
+	display: flex;
+	background-image: url("../img/chowkingbackground3.jpg");
+	padding: 5rem;
+	justify-content: space-between;
+	color: white;
+
+
+}
+
+.logo {
+	color: white;
+	font-weight: bold;
+	padding: 0 2rem;
+	font-size: 60px;
+}
+
+button {
+	padding: 1rem 3rem;
+	font-size: 2.5rem;
+	border: none;
+	border-color: blue;
+	cursor: pointer;
+	border-radius: 0.5rem;
+	background-color: darkred;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+h1 {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 4rem;
+	text-align: center;
+	color: ghostwhite;
+}
+
+p {
+	text-align: center;
+	font-size: 2rem;
+}

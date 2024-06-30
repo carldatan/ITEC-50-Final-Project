@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cart</title>
+	<style>
+		.checkout {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-left: 30%;
+			padding: 10px;
+			margin-bottom: 10px;
+			border: none;
+			border-radius: 5px;
+			height: 10%;
+			width: 40%;
+			font-family: "Lato Bold", sans-serif;
+			font-weight: bold;
+			color: white;
+			background: #da291c;
+		}
+	</style>
+	<script src="../../js/orderpage.js"></script>
+</head>
+<style>
+	.cart {
+		display: flex;
+		flex-direction: column;
+		height: 20%;
+		width: 100%;
+		background: #e9b71e;
+		font-family: "Lato Bold", sans-serif;
+		padding-left: 10px;
+
+	}
+
+
+
+	body {
+		background: #da291c;
+	}
+</style>
+
+<body>
+	<div class="container">
+		<div class="cart">
+			<h1>Cart</h1>
+			<div class="cart-items">
+			</div>
+			<button class="checkout" onclick="openOrderForm()">Checkout</button>
+		</div>
+	</div>
+</body>

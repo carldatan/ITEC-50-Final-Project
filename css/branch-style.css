@@ -1,0 +1,68 @@
+body {
+	font-family: Arial, sans-serif;
+	background: url('../img/branch-background.jpg') no-repeat center center fixed;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+header {
+	text-align: center;
+	background: red;
+	padding: 20px 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 36px;
+	color: white;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 120px 20px 20px;
+	background: rgba(255, 255, 255, 0.8);
+	margin-top: 80px;
+	border-radius: 15px;
+	position: relative;
+	z-index: 1;
+	max-width: 800px;
+	margin: 100px auto;
+}
+
+.branch-details {
+	text-align: center;
+	padding: 20px;
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 0.9);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.branch-details h2 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 24px;
+	color: #333;
+}
+
+.branch-details p {
+	margin: 10px 0;
+	font-size: 18px;
+	color: #666;
+}
+
+.branch-details a {
+	color: blue;
+	text-decoration: none;
+}
+
+.branch-details a:hover {
+	text-decoration: underline;
+}

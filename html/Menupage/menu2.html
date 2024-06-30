@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .background2 {
+            position: relative;
+
+        }
+
+        .overlay2 {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 100%;
+            z-index: 10;
+        }
+
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            left: 10%;
+            background-color: white;
+            overflow-x: hidden;
+            padding-top: 20px;
+            z-index: 30;
+        }
+
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            color: black;
+        }
+
+        .bottompart {
+
+            font-family: monospace;
+
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            z-index: 30;
+        }
+
+        .bottompart a:link {
+            color: white;
+        }
+
+        .bottompart a:visited {
+            color: white;
+        }
+
+        #iframe-container {
+            position: absolute;
+            left: 20%;
+            top: -20%;
+            width: 70%;
+            height: calc(100% - 50px);
+            border: none;
+            z-index: 20;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="background2">
+        <img src="../../img/chowkingbg.jpg" height="1000px" width="200%">
+        <img src="../../img/whitebg.jpg" class="overlay2" width="80%" height="100%">
+    </div>
+
+    <div class="sidebar">
+        <a id="chaofan" target="contentFrame" href="chaofan.html">Chaofan</a>
+        <a id="chicken" target="contentFrame" href="chicken.html">Chinese-style fried chicken</a>
+        <a id="lauriat" target="contentFrame" href="lauriat.html">Lauriat</a>
+        <a id="chinarice" target="contentFrame" href="chinarice.html">Chinese rice meals</a>
+        <a id="noodles" target="contentFrame" href="noodles.html">Noodles</a>
+        <a id="siopaosiomai" target="contentFrame" href="siopaosiomai.html">Siopao & Siomai</a>
+        <a id="sidedish" target="contentFrame" href="sidedish.html">Side Dishes</a>
+        <a id="drinks" target="contentFrame" href="drinks.html">Drinks</a>
+        <a id="promo" target="contentFrame" href="promo.html">Promo Offers</a>
+        <a id="bestsellers" target="contentFrame" href="bestsellers.html">Bestsellers</a>
+        <a id="breakfast" target="contentFrame" href="breakfast.html">Breakfast</a>
+        <a id="goodforshare" target="contentFrame" href="goodforshare.html">Good for sharing</a>
+    </div>
+
+    <div id="iframe-container">
+        <iframe name="contentFrame" frameborder="0" width="100%" height="100%"></iframe>
+    </div>
+
+
+    </div>
+
+    <div class="bottompart">
+        <a href="https://www.chowking.ph/our-story">About Us</a>
+    </div>
+
+
+</body>
+
+</html>

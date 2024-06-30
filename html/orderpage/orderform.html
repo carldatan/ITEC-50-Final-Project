@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Order Page</title>
+	<script src="../js/orderpage.js"></script>
+
+	<style>
+		body {
+			background: #da291c;
+		}
+
+		.rounded-div {
+			height: 80%;
+			border-radius: 10px;
+			background-color: #e9b71e;
+			padding: 10px;
+			margin: 10px;
+			text-align: center;
+			box-shadow: 5px 5px 5px #1D2E28;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="formContainer">
+		<div class="rounded-div">
+			<form>
+				<h1>Order Form</h1>
+				<p>Fill out the form below to place your order.</p>
+				<label for="name">Name:</label><br>
+				<input type="text" id="name" name="name" required><br>
+				<label for="email">Email:</label><br>
+				<input type="email" id="email" name="email" placeholder="yourusername@email.com"
+					required><br>
+				<label for="phone">Phone:</label><br>
+				<input type="tel" id="phone" name="phone" minlength="11" pattern="\d*"
+					placeholder="0912345678901" required><br>
+				<label for="address">Address:</label><br>
+				<input type="text" id="address" name="address" required><br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+	</div>
+	<script>
+		window.onload = function () {
+			document.querySelector('form').addEventListener('submit', function (event) {
+				event.preventDefault();
+
+				var targetFrame = parent.document.getElementById('rightFrame');
+				var targetDocument = targetFrame.contentDocument || targetFrame.contentWindow.document;
+				var cartItems = Array.from(targetDocument.querySelectorAll('.cart-items p'));
+				console.log(targetDocument);
+				var cartItemsText = cartItems.map(function (item) {
+					return item.textContent;
+				}).join('\n');
+
+				var successMessage = 'Thank you for your order!\n\nYour Cart Items:\n' + cartItemsText;
+
+				this.parentNode.innerHTML = '<p>' + successMessage.replace('/\n/g', '<br>') + '</p>';
+			});
+		}
+	</script>
+
+</body>
+
+</html>

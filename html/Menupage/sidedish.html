@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.v1,
+		.v2,
+		.v3,
+		.v4 {
+			position: absolute;
+			left: 50%;
+			top: 60%;
+			transform: translate(-50%, -50%);
+			max-width: 100%;
+			z-index: 20;
+		}
+
+		.v1 {
+			transform: translate(-200%, -50%);
+			top: 60%;
+		}
+
+		.v2 {
+			transform: translate(-100%, -50%);
+			top: 60%;
+		}
+
+		.v3 {
+			transform: translate(0%, -50%);
+			top: 60%;
+		}
+
+		.v4 {
+			transform: translate(100%, -50%);
+			top: 60%;
+		}
+
+
+		.variants img {
+			width: 175px;
+			height: 175px;
+			border-radius: 25px;
+		}
+
+		.variants a {
+			display: block;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="variants">
+		<div class="v1">
+			<a><img src="../../img/chicharap.png"></a>
+		</div>
+
+		<div class="v2">
+			<a><img src="../../img/eggfriedrice.png"></a>
+		</div>
+
+		<div class="v3">
+			<a><img src="../../img/peanutbuchi.png"></a>
+		</div>
+
+		<div class="v4">
+			<a><img src="../../img/wontonsoup.png"></a>
+		</div>
+	</div>
+
+</body>
+
+</html>
