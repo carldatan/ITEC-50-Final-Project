@@ -19,12 +19,22 @@ It enhances customer engagement by providing detailed information online orderin
 ### Explain the parts of your web page/s
 First of all, we have the home page where the content includes the Location, Menu, and Order Page. The Location includes all the available Chowking Branch in Naic Cavite. Next is our Menu that includes different foods and each have four varieties. Last but not the least is our Order Page where you can buy as many foods as you like and the total sum will display on the right side.
 
+### Home Page
+![Home Page](img/Homepage.png)
+### Location Page
+![Location Page](img/Locationspage.png)
+### Menu Page
+![Menu Page](img/Menupage.png)
+### Order Page
+![Order Page](img/Orderpage.png)
+
 > “Carl appoints all the group members their own parts for the final project”
-> 
+> ![Appointing](img/appoint.png)
 > “Home Page coded by Ronnell”
-> 
+> ![Home Page](img/ronnell.jpg)
 > “Location coded by Michael”
-> 
+> ![Location Page](img/michael.jpg)
 > “Menu coded by Vincent”
-> 
+> ![Menu Page](img/vincent.jpg)
 > “Order Page coded by Carl”
+> ![Order Page](img/carl.jpg)
