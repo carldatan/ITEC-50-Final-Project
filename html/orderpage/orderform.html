@@ -3,7 +3,7 @@
 
 <head>
 	<title>Order Page</title>
-	<script src="../js/orderpage.js"></script>
+	<script src="../../js/orderpage.js"></script>
 
 	<style>
 		body {
@@ -59,6 +59,14 @@
 				var successMessage = 'Thank you for your order!\n\nYour Cart Items:\n' + cartItemsText;
 
 				this.parentNode.innerHTML = '<p>' + successMessage.replace('/\n/g', '<br>') + '</p>';
+
+				cartItems.forEach(function (item) {
+					item.parentNode.removeChild(item);
+				});
+				var total = targetDocument.querySelector('.total-price');
+				if (total) {
+					total.parentNode.removeChild(total);
+				}
 			});
 		}
 	</script>
