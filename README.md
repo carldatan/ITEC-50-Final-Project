@@ -1,21 +1,30 @@
-# ITEC-50-Final-Project
+# Final Project in Web System and Technologies 1
+(Second Semester of Academic Year 2023-2024)
 
-## Overview
-This repository contains the final project for the ITEC 50 course. The project involves creating a web application with a focus on HTML, CSS, and JavaScript.
+## Submitted to
+Mr. Raven Dave R. Gallardo
 
-## Features
-- HTML Frames
-- HTML Forms
-- Clean and structured code
+## Submitted by
+- Casama Michael
+- Datan Carl
+- Dayson Ronnell
+- Dela Serna
 
-## GitHub Pages
-You can view the project live on GitHub Pages: [ITEC-50-Final-Project](https://carldatan.github.io/ITEC-50-Final-Project)
+### Why did you choose that product or services to advertise?
+All of us known Chowking and our group decided that it will be our reference for our final project since it’s quite simple and easy to replicate.
 
-## Contributing
-Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+### How web page/s created will help the product or services?
+It enhances customer engagement by providing detailed information online ordering and interactive features.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+### Explain the parts of your web page/s
+First of all, we have the home page where the content includes the Location, Menu, and Order Page. The Location includes all the available Chowking Branch in Naic Cavite. Next is our Menu that includes different foods and each have four varieties. Last but not the least is our Order Page where you can buy as many foods as you like and the total sum will display on the right side.
 
-## Contact
-For any questions or inquiries, please open an issue or contact the project maintainer.
+> “Carl appoints all the group members their own parts for the final project”
+> 
+> “Home Page coded by Ronnell”
+> 
+> “Location coded by Michael”
+> 
+> “Menu coded by Vincent”
+> 
+> “Order Page coded by Carl”
